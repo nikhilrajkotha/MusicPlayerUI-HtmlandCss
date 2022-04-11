@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Music Player</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+<div id="container">
+	<header class="header">
+
+		<div class="player-name-icon">
+			<!-- music_logo -->
+           <div id="player-icon"> 
+           	<i class="fab fa-napster"></i>
+           </div>
+
+           <div id="player-name">
+           	<h1>Nikhil's</h1>
+           	<p>Music player</p>
+           </div>
+
+		</div>
+<!-- -----------------------favourites-------------------- -->
+		<div id="favourites">
+			Favourites
+		</div>
+
+		<div  id="search">
+			<i class="fas fa-search search_mic_icon"></i>
+                    <input type="text" name="search" placeholder="     search" class="search-text">
+                    <!-- mic_icon -->
+                    <i class="fas fa-microphone search_mic_icon"></i>
+		</div>
+<!-- -------------------login---------------------- -->
+		<div id="login">
+			<div id="bell">
+				 <i class="fas fa-bell"></i>
+			</div>
+		<div id="human">
+			 <i class="fas fa-user"></i>
+		</div>
+		</div>
+
+	</header>
+
+<!-- 	================main ===================== -->
+	<main class="main">
+
+		<!-- ----------recents----------- -->
+		<div class="recents">
+			<div>
+				<img src="Images/english/Alone.png">
+			</div>
+			<div>
+				<img src="Images/english/closer.jpg">
+			</div>
+			<div>
+				<img src="Images/english/despacito.jpg">
+			</div>
+			<div>
+				<img src="Images/english/cheap-thrills.jpg">
+			</div>
+			<div>
+				<img src="Images/english/senorita.jpg">
+			</div>
+		</div>
+
+		<!-- ----------------latest songs------------- -->
+
+		<div class="latest-songs-heading">
+			<h1>Latest Songs</h1>
+		</div>
+		<div class="latest-songs">
+			<!-- <h1>Latest Songs</h1> -->
+			<div id="latest-song-1" class="latest-songs-div">
+				<i class="fas fa-play play-icon"></i>
+				<div class="latest-song-icon">
+					<img src="Images/telugu/buttabomma.jpg"
+					alt="failed to load">
+				</div>
+				<div class="latest-song-description">
+					<h1>ButtaBomma</h1>
+					<p>Aug,2020</p>
+				</div>
+				<div style="color:white;">
+					<p > ...</p>
+					<p >5:07</p>
+				</div>
+			</div>
+				<div id="latest-song-1" class="latest-songs-div">
+				<i class="fas fa-play play-icon"></i>
+				<div class="latest-song-icon">
+
+					<img src="Images/telugu/bahubali.jpg"
+					alt="failed to load">
+
+					
+				</div>
+				<div class="latest-song-description">
+					<h1>Baahubali</h1>
+					<p>Aug,2018</p>
+				</div>
+					<div style="color:white;">
+					<p > ...</p>
+					<p >3:27</p>
+				</div>
+			</div>
+			<div id="latest-song-1" class="latest-songs-div">
+				<i class="fas fa-play play-icon"></i>
+				<div class="latest-song-icon">
+
+					<img src="Images/telugu/gangleader.jpg"
+					alt="failed to load">
+
+					
+				</div>
+				<div class="latest-song-description">
+					<h1>GangLeader</h1>
+					<p>Aug,2019</p>
+				</div>
+					<div style="color:white;">
+					<p > ...</p>
+					<p >2:57</p>
+				</div>
+			</div>
+			<div id="latest-song-1" class="latest-songs-div">
+				<i class="fas fa-play play-icon"></i>
+				<div class="latest-song-icon">
+					<img src="Images/telugu/saaho.jpg"
+					alt="failed to load">
+					
+				</div>
+				<div class="latest-song-description">
+					<h1>Saaho</h1>
+					<p>Aug,2018</p>
+				</div>
+					<div style="color:white;">
+					<p > ...</p>
+					<p >4:38</p>
+				</div>
+			</div>
+		</div>
+<!-- --------------Popular Artists---------------------- -->
+		<div>
+			<h1>Popular Artists</h1>
+		</div>
+		<div class="popular-artists">
+			<div>
+				<img src="Images/popular_artists/arjit_singh.jfif">
+			</div>
+			<div>
+				<img src="Images/popular_artists/drake.jfif">
+			</div>
+			<div>
+				<img src="Images/popular_artists/ed_sheeran.jfif">
+			</div>
+			<div>
+				<img src="Images/popular_artists/shreya_ghoshal.jfif">
+			</div>
+			<div>
+				<img src="Images/popular_artists/sid-sriram.jpg">
+			</div>
+			<div>
+				<img src="Images/popular_artists/taylor_swift.jfif">
+			</div>
+		</div>
+		<div class="music-types">
+			<div>
+				<p>Rock</p>
+				<img src="Images/type_music/chill.jpg">
+			</div>
+			<div>
+				<p>Electronic</p>
+				<img src="Images/type_music/electronic.jpg">
+			</div>
+			<div>
+				<p>Love</p>
+				<img src="Images/type_music/love.jpg">
+			</div>
+			<div>
+				<p>Party</p>
+				<img src="Images/type_music/party.jpg">
+			</div>
+		</div>
+
+	<!-- 	----------  Latest English ----------- -->
+		<div>
+			<h1>Latest English</h1>
+		</div>
+		<div class="latest-english-hindi">
+			<div class="latest-english-hindi-div">
+			<div>
+					<img src="Images/english/Alone.png">
+				</div>
+					<div class="latest-song-desc">
+					<h1>Alone</h1>
+					<p>Jan 19,2016</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+				<div>
+					<img src="Images/english/senorita.jpg">
+				</div>
+				<div class="latest-song-desc">
+					<h1>Senorita</h1>
+					<p>Nov 2,2021</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+				<div>
+					<img src="Images/english/closer.jpg">
+				</div>
+				<div class="latest-song-desc">
+					<h1>Closer</h1>
+					<p>Sep 4,2017</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+				<div>
+					<img src="Images/english/despacito.jpg">
+				</div>
+				<div class="latest-song-desc">
+					<h1>Despacito</h1>
+					<p>Feb 1,2010</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+				<div>
+					<img src="Images/english/faded.jpg">
+				</div>
+				<div class="latest-song-desc">
+					<h1>Faded</h1>
+					<p>Jan 11,2011</p>
+				</div>
+			</div>
+				<div class="latest-english-hindi-div">
+				<div>
+					<img src="Images/english/cheap-thrills.jpg" >
+				</div>
+				<div class="latest-song-desc" >
+					<h1 >Cheap Thrills</h1>
+					<p>Feb 1,2010</p>
+				</div>
+		</div>
+	</div>
+
+<!-- 	  ---------------Latest Hindi------------- -->
+	<div>
+		<h1>Latest Hindi</h1>
+	</div>
+		<div class="latest-english-hindi">
+				<div class="latest-english-hindi-div">
+			<div>
+					<img src="Images/hindi/abcd.jpg">
+				</div>
+					<div class="latest-song-desc">
+					<h1>Abcd</h1>
+					<p>Feb 1,2010</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+			<div>
+					<img src="Images/hindi/baarish.jpg" >
+				</div>
+					<div class="latest-song-desc">
+					<h1>Baarish</h1>
+					<p>Feb 1,2018</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+			<div>
+					<img src="Images/hindi/chennai.jpg" >
+				</div>
+					<div class="latest-song-desc" >
+					<h1 >Chennai Expr</h1>
+					<p>Feb 1,2009</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+			<div>
+					<img src="Images/hindi/ik-vaari-aa.jpg">
+				</div>
+					<div class="latest-song-desc">
+					<h1>Ik vaari aa</h1>
+					<p>Feb 1,2018</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+			<div>
+					<img src="Images/hindi/panida.jpg">
+				</div>
+					<div class="latest-song-desc">
+					<h1>Panida</h1>
+					<p>Feb 1,2018</p>
+				</div>
+			</div>
+			<div class="latest-english-hindi-div">
+			<div>
+					<img src="Images/hindi/sun-saathiya.jpg">
+				</div>
+					<div class="latest-song-desc">
+					<h1>Panida</h1>
+					<p>Feb 1,2018</p>
+				</div>
+			</div>
+		</div>
+	</main>
+	<aside class="playlists">
+		
+			<h1>My PlayList</h1>
+		
+		<div class="playlist-songs">
+			<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>01</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/english/Alone.png">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Alone</h1>
+				<p>alan walker</p>
+				</div>
+				
+			</div>
+			<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>02</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/english/cheap-thrills.jpg">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Cheap Thrills</h1>
+				<p>Sia</p>
+				</div>
+				
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>03</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/english/closer.jpg">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Closer</h1>
+				<p>Chain Smokers</p>
+				</div>
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>04</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/telugu/bahubali.jpg">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Bahubali</h1>
+				<p>keeravani</p>
+				</div>
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>05</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/telugu/saaho.jpg">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Saaho</h1>
+				<p>Gibran</p>
+				</div>
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>06</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/telugu/buttabomma.jpg">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Butta bomma</h1>
+				<p>Thaman</p>
+				</div>
+			
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>07</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/english/faded.jpg">
+						<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Faded</h1>
+				<p>Alan walker</p>
+				</div>
+
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>08</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/telugu/gangleader.jpg">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Gang Leader</h1>
+				<p>Aniruddh</p>
+				</div>
+
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>09</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/hindi/sun-saathiya.jpg">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>ABCD 2</h1>
+				<p>Sachin Jigar</p>
+				</div>
+			</div>
+				<div class="playlist-songs-list">
+				<div class="playlist-songs-image">
+					<p>10</p>
+					<i class="fas fa-play play-icon-aside"></i>
+					<img src="Images/english/Alone.png">
+					<i class="fas fa-heart heart-icon"></i>
+				</div>
+				<div class="playlist-song-desc">
+				<h1>Alone</h1>
+				<p>alan walker</p>
+				</div>
+			</div>
+			</div>
+	</aside>
+	
+</div>
+</body>
+</html>
